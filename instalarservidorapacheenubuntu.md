@@ -20,4 +20,12 @@ Ejercicio 1: Estamos en la empresa Gurú.com y alli nos han pedido que creemos u
 &sudo nano ejem.html
 &sudo mv ejem.html .html
 Para verlo pondremos en el buscador 127.0.0.1 y el nombre del archivo (127.0.0.1/ejem.html)
+------------------------------------------------------------------------------------------------------------------------------------------
 
+sudo mkdir -p /var/www/example.com/public_html
+sudo mkdir -p /var/www/test.com/public_html
+cd example.com
+sudo nano example.html
+cd..
+cd test.com
+sudo nano test.html
